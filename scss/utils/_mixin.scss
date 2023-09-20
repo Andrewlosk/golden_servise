@@ -1,0 +1,12 @@
+@mixin title($color, $size, $letter-spacing, $line-height){
+    color: $color;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: $size;
+    font-style: normal;
+    font-weight: 700;
+    line-height: $line-height; /* 187.5% */
+    letter-spacing: $letter-spacing;
+    text-transform: uppercase;
+    text-align: center;
+}

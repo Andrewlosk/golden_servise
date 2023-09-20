@@ -1,0 +1,83 @@
+.contact {
+    background: #222;
+    padding: 92px 0 115px 0;
+    &__title{
+        // text-align: center;
+        // color: #FFF;
+        // font-family: Montserrat;
+        // font-size: 40px;
+        // font-style: normal;
+        // font-weight: 700;
+        // line-height: normal;
+        // letter-spacing: -1px;
+        // text-transform: uppercase;
+        @include title(#FFF, 40px, -1px, normal);
+        margin: 0;
+    }
+    &__form{
+        padding-top: 114px;
+        input{
+            background: #FFF;
+            border: 1px solid #CCC;
+            width: 455px;
+            height: 50px;
+            padding: 12px 20px ;
+
+            color: #BBB;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.35px;
+            text-transform: uppercase;
+        }
+    }
+    &__form--wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+    &__message{
+        color: #BBB;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.35px;
+        text-transform: uppercase;
+
+        background: #FFF;
+        border: 1px solid #CCC;
+        width: 458px;
+        height: 206px;
+        padding: 14px 22px ;
+        resize: none;
+        outline: none;
+    }
+    &__box{
+        display: flex;
+        gap: 28px;
+        margin-bottom: 29px;
+
+    }
+
+    &__btn{
+        border: none;
+        padding: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        background: #FED136;
+        padding: 18px 33px 28px 33px;
+        margin: 0 auto;
+        display: block;
+    }
+
+}
